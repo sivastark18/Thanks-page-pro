@@ -1,0 +1,74 @@
+.diwali-top-section {
+    background-image: url("images.jpg");
+    height:50vh;
+    background-size:cover;
+  }
+  .diwali-top-section-heading {
+    color:aliceblue;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 200px;
+    padding: 20px;
+  }
+  .diwali-bottom-section {
+    text-align:center;
+    background-color: #e6f6ff;
+    padding:15px;
+  }
+  .diwali-card-item {
+    text-align: center;
+    background-color: white;
+    width:140px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+  }
+  .diwali-card-image {
+    height: 64px;
+    width: 64px;
+  }
+  .diwali-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 768px){
+	.diwali-bottom-section{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.diwali-bottom-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.diwali-card-item{
+	float:none;
+	width:100%;
+	
+}
+.diwali-card-name{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.diwali-card-price{
+	text-align: center;
+	font-size: 18px;
+}
+
+
+
+
+  
